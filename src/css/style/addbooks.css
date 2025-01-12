@@ -1,0 +1,8 @@
+.content-description form{
+    width: 450px;
+}
+.content-description form button{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 5px;
+}

@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+
+/* 
+   proprietés flexbox
+ */
+
+
+.flex{
+    display: flex;
+}
+
+.jcc{
+    justify-content: center;
+}
+.jcsb{
+    justify-content: space-between;
+}
+
+.aic{
+    align-items: center;
+}
+
+.row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 2;
+}
+.flex-3{
+    flex: 3;
+}
+
+.gap-5{
+    gap: 5px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-15{
+    gap: 15px;
+}
+
+
+
+/* 
+   proprietés display
+ */
+
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+}
+
+/* 
+   proprietés de positionnement
+ */
+
+.relative{
+    position: relative;
+}
+.fixed{
+    position: fixed;
+}
+.absolute{
+    position: absolute;
+}
+
+
+/* 
+   input,button,ul,select
+ */
+
+
+input,button,select{
+    outline: none;
+    height: 35px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+textarea{
+    outline: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+button,select{
+    cursor: pointer;
+}
+
+.btn{
+    background-color: rgb(8, 8, 63);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+les fonctions utiles pour la manipulation de la base de données
+   __les fonctions de manipulation de la table livre
+      ajouter un livre ---------  addBook()
+      recuperer un livre ---------  getBook()
+      modification d'un livre ---------  upDateBook()
+      suppression des livres ---------  deleteBook()
+
+
+
+   __les fonctions de manipulation de la table utilisateur
+      ajouter un utilisateur ---------  addUser()
+      recuperer un utilisateur ---------  getUser()
+      modification d'information d'un utilisateur ---------  upDateUser()
+      suppression du compte d'un utilisateur ---------  deleteUser()
+
+
+
+
+   __les fonctions de manipulation de la table emprunter
+       permet à l'utilisateur de faire un prêt ---------  addLoan()
+       recuperer le prêt d'un utilisateur ---------  getLoan()
+
+      

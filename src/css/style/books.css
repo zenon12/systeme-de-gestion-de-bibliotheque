@@ -1,0 +1,18 @@
+.description table td,
+.description table th{
+    border: 2px solid rgb(8, 8, 63) ;
+    padding: 10px;
+    
+}
+.description table{
+    border-collapse: collapse ;
+}
+
+.content-description select{
+    background-color: rgb(8, 8, 63);
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}

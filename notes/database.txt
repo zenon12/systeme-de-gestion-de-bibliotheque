@@ -1,0 +1,25 @@
+  Developpement d'un système de Gestion de Bibliothèque avec PHP 
+                      et MySQL.
+
+ database_name: library ;
+
+ description: 
+ Ce projet consiste à créer un systeme de gestion de bibliotheque interactif et fonctionnel.
+
+ Tables:
+
+books(id,title,name_author,publication_date,ISBN,genre,stock,
+    quantity_loan,resume)
+
+users(id,firstname,lastname,date_birth,email,tel,adresse
+   register_date,user_status,password)
+#register_date: la date d'inscription de l'utilisateur
+#user_status: soit c'est un utilisateur ou administrateur
+
+
+handle_loan(id,id_book,id_user,loan_date,due_date,status)
+#loan_date: date d'emprunt
+#due_date: date de retour prevue
+
+
+
