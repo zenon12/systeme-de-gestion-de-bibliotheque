@@ -70,9 +70,9 @@ Recherche avancée : Recherchez des livres par titre, auteur, ou genre en utilis
 
 **3. Technologies utilisées**
 
-Backend : PHP avec PDO pour interagir avec la base de données.
-Base de données: MySQL.
-FrontEnd:HTML, CSS, Javascript.
+Backend : PHP avec PDO pour interagir avec la base de données.<br>
+Base de données: MySQL.<br>
+FrontEnd:HTML, CSS, Javascript.<br>
 
 
 
