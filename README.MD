@@ -28,7 +28,7 @@ Ce projet est un système de gestion de bibliothèque développé en PHP. Il per
    ```
 3. Importez la base de données :
   ``` bash
-  mysql -u root -p bibliotheque < "C:\Users\Elitebook-PC\projet-personnel-mudey\php_mysql\systeme_gestion_bibliothèque\database\gestion_biblioth__que.sql"
+   mysql -u root -p bibliotheque < "C:\Users\Elitebook-PC\projet-personnel-mudey\php_mysql\systeme_gestion_bibliothèque\database\gestion_biblioth__que.sql"
 ```
 
 4. Configurez la connexion à la base de données dans `config.php`.
@@ -39,14 +39,15 @@ Utilisation
 Le système de gestion de bibliothèque permet aux utilisateurs de gérer les opérations courantes liées à une bibliothèque, 
 telles que l’ajout de livres, la gestion des emprunts et des retours, ainsi que la recherche de livres. Voici comment utiliser le projet :
 
-1. Lancement de l'application
+**1. Lancement de l'application**
 Assurez-vous que votre serveur web (par exemple,XAMPP,WAMP ou MAMP) et votre serveur de base de données sont opérationnels.
 Placez les fichiers du projet dans le répertoire de votre serveur (par exemple, htdocs pour XAMPP).
 Accédez à l'application via votre navigateur à l'adresse suivante :
+
 ``` 
 https://localhost/systeme-degestion-de-bibliothque
 ``` 
-2. Fonctionnalités principales
+**2. Fonctionnalités principales**
 
 a. Gestion des utilisateurs
 
@@ -66,9 +67,10 @@ d. Recherche
 
 Recherche avancée : Recherchez des livres par titre, auteur, ou genre en utilisant la section recherche.
 
-3. Technologies utilisées
+**3. Technologies utilisées**
 
 Backend : PHP avec PDO pour interagir avec la base de données.
 Base de données : MySQL.
 Frontend : HTML, CSS, JavaScript.
+
 
