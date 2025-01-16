@@ -40,8 +40,9 @@ Le système de gestion de bibliothèque permet aux utilisateurs de gérer les op
 telles que l’ajout de livres, la gestion des emprunts et des retours, ainsi que la recherche de livres. Voici comment utiliser le projet :
 
 **1. Lancement de l'application**
+
 Assurez-vous que votre serveur web (par exemple,XAMPP,WAMP ou MAMP) et votre serveur de base de données sont opérationnels.
-Placez les fichiers du projet dans le répertoire de votre serveur (par exemple, htdocs pour XAMPP).
+Placez les fichiers du projet dans le répertoire de votre serveur (par exemple, htdocs pour XAMPP).\n
 Accédez à l'application via votre navigateur à l'adresse suivante :
 
 ``` 
