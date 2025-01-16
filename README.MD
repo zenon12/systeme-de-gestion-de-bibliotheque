@@ -12,7 +12,7 @@ Ce projet est un système de gestion de bibliothèque développé en PHP. Il per
 
 ## Prérequis
 
-- Serveur web (Apache, Nginx, etc.)
+- Serveur web (Apache,Xampp, Nginx, etc.)
 - PHP 7.4 ou supérieur
 - Base de données MySQL
 
@@ -20,7 +20,7 @@ Ce projet est un système de gestion de bibliothèque développé en PHP. Il per
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/votre-utilisateur/systeme-de-gestion-de-bibliotheque.git
+   git clone https://github.com/zenon12/systeme-de-gestion-de-bibliotheque.git
    ```
 2. Accédez au répertoire du projet :
    ```bash
@@ -28,7 +28,7 @@ Ce projet est un système de gestion de bibliothèque développé en PHP. Il per
    ```
 3. Importez la base de données :
    ```sql
-   mysql -u votre-utilisateur -p votre-base-de-donnees < database.sql
+   mysql -u root -p gestion_bibliothèque < /database/gestion_bibliothèque.sql
    ```
 4. Configurez la connexion à la base de données dans `config.php`.
 
