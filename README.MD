@@ -35,7 +35,6 @@ Ce projet est un système de gestion de bibliothèque développé en PHP. Il per
 
 ## Utilisation
 
-Utilisation
 Le système de gestion de bibliothèque permet aux utilisateurs de gérer les opérations courantes liées à une bibliothèque, 
 telles que l’ajout de livres, la gestion des emprunts et des retours, ainsi que la recherche de livres. Voici comment utiliser le projet :
 
@@ -46,13 +45,13 @@ Placez les fichiers du projet dans le répertoire de votre serveur (par exemple,
 Accédez à l'application via votre navigateur à l'adresse suivante :
 
 ``` 
-https://localhost/systeme-degestion-de-bibliothque
+https://localhost/systeme-de-gestion-de-bibliothque
 ``` 
 **2. Fonctionnalités principales**
 
 a. Gestion des utilisateurs
 
-Inscription : Les utilisateurs doivent créer un compte en fournissant leurs informations personnelles.
+Inscription : Les utilisateurs doivent créer un compte en fournissant leurs informations personnelles.<br>
 Connexion : Les utilisateurs enregistrés peuvent se connecter pour accéder à leurs fonctionnalités personnalisées.
 
 b. Gestion des livres
@@ -61,7 +60,7 @@ Ajouter de nouveaux livres : Accédez à la section Ajouter un livre et renseign
 
 c. Gestion des emprunts
 
-Emprunter un livre : Les utilisateurs peuvent rechercher un livre disponible et effectuer une demande d'emprunt.
+Emprunter un livre : Les utilisateurs peuvent rechercher un livre disponible et effectuer une demande d'emprunt.<br>
 Retourner un livre : Les utilisateurs doivent enregistrer le retour d’un livre après la période d’emprunt.
 
 d. Recherche
