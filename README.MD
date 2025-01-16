@@ -28,7 +28,7 @@ Ce projet est un système de gestion de bibliothèque développé en PHP. Il per
    ```
 3. Importez la base de données :
    ```sql
-   mysql -u root -p gestion_bibliothèque < /database/gestion_bibliothèque.sql
+   mysql -u root -p gestion_bibliothèque < /database/gestion_biblioth__que.sql
    ```
 4. Configurez la connexion à la base de données dans `config.php`.
 
