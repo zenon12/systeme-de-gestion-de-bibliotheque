@@ -42,7 +42,7 @@ telles que l’ajout de livres, la gestion des emprunts et des retours, ainsi qu
 **1. Lancement de l'application**
 
 Assurez-vous que votre serveur web (par exemple,XAMPP,WAMP ou MAMP) et votre serveur de base de données sont opérationnels.
-Placez les fichiers du projet dans le répertoire de votre serveur (par exemple, htdocs pour XAMPP).\n
+Placez les fichiers du projet dans le répertoire de votre serveur (par exemple, htdocs pour XAMPP).<br>
 Accédez à l'application via votre navigateur à l'adresse suivante :
 
 ``` 
@@ -71,7 +71,8 @@ Recherche avancée : Recherchez des livres par titre, auteur, ou genre en utilis
 **3. Technologies utilisées**
 
 Backend : PHP avec PDO pour interagir avec la base de données.
-Base de données : MySQL.
-Frontend : HTML, CSS, JavaScript.
+Base de données: MySQL.
+FrontEnd:HTML, CSS, Javascript.
+
 
 
