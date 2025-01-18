@@ -43,38 +43,38 @@ telles que l’ajout de livres, la gestion des emprunts et des retours, ainsi qu
 Assurez-vous que votre serveur web (par exemple,XAMPP,WAMP ou MAMP) et votre serveur de base de données sont opérationnels.  
 Dans ce projet on a travaillé sur le XAMPP.<br>
 **XAMPP v3.3.0**<br>
-_ lancer le serveur **Apache** et le serveur **MySQL** dans le control panel de **XAMPP**.<br>
-_ Placez les fichiers du projet dans le répertoire de votre serveur **htdocs**.<br>
-_ Accéder à l'outil **phpMyAdmin** via votre navigateur web en utilisant l'url suivant:
+- lancer le serveur **Apache** et le serveur **MySQL** dans le control panel de **XAMPP**.<br>
+- Placez les fichiers du projet dans le répertoire de votre serveur **htdocs**.<br>
+- Accéder à l'outil **phpMyAdmin** via votre navigateur web en utilisant l'url suivant:
 ```
   http://localhost/phpmyadmin/
 ```
-_ Une fois sur **phpMyAdmin** cliqué sur **SQL** qui se trouve dans le menu de **phpMyAdmin**. Ensuite
+-  Une fois sur **phpMyAdmin** cliqué sur **SQL** qui se trouve dans le menu de **phpMyAdmin**. Ensuite
 utiliser la commander suivante pour créer une base de donnée:
 ```
  CREATE DATABASE  handle_library ;
 ```
-_Maintenant importer la base de donnée en utilisant les commandes suivantes sur git bash ou l'invité de commande :<br>
-   _Accédez au répertoire du projet :
+- Maintenant importer la base de donnée en utilisant les commandes suivantes sur git bash ou l'invité de commande :<br>
+   - Accédez au répertoire du projet :
 
        ```bash
        cd votre repository dans le dossier 'htdocs'
       ```
 
-   _Assurez-vous que l'executable de mysql se trouve dans votre variable d'environnement
+   - Assurez-vous que l'executable de mysql se trouve dans votre variable d'environnement
 
       ``` bash
         mysql -u root -p handle_library < path to database
       ```
 
 
-_Accédez à l'application via votre navigateur à l'adresse suivante :
+- Accédez à l'application via votre navigateur à l'adresse suivante :
 
 ``` 
 http://localhost/systeme-de-gestion-de-bibliotheque
 ``` 
 
-**2.Compte d'essai**
+**2.Compte d'essai**<br>
    **email:** mariama9024@gmail.com<br>
    **password:** Azerty123@<br>
    **rôle:** Administrateur
