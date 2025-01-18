@@ -24,11 +24,11 @@ Ce projet est un système de gestion de bibliothèque développé en PHP. Il per
    ```
 2. Accédez au répertoire du projet :
    ```bash
-   cd systeme-de-gestion-de-bibliotheque
+   cd votre repository
    ```
 3. Importez la base de données :
   ``` bash
-   mysql -u root -p bibliotheque < "C:\Users\Elitebook-PC\projet-personnel-mudey\php_mysql\systeme_gestion_bibliothèque\database\gestion_biblioth__que.sql"
+   mysql -u root -p database name < path to database
 ```
 
 4. Configurez la connexion à la base de données dans `config.php`.
@@ -40,14 +40,43 @@ telles que l’ajout de livres, la gestion des emprunts et des retours, ainsi qu
 
 **1. Lancement de l'application**
 
-Assurez-vous que votre serveur web (par exemple,XAMPP,WAMP ou MAMP) et votre serveur de base de données sont opérationnels.
-Placez les fichiers du projet dans le répertoire de votre serveur (par exemple, htdocs pour XAMPP).<br>
-Accédez à l'application via votre navigateur à l'adresse suivante :
+Assurez-vous que votre serveur web (par exemple,XAMPP,WAMP ou MAMP) et votre serveur de base de données sont opérationnels.  
+Dans ce projet on a travaillé sur le XAMPP.
+**XAMPP v3.3.0**
+_lancer le serveur **Apache** et le serveur **MySQL** dans le control panel de **XAMPP**.<br>
+_Placez les fichiers du projet dans le répertoire de votre serveur **htdocs**.<br>
+_Accéder à l'outil **phpMyAdmin** via votre navigateur web en utilisant l'url suivant:
+```
+  http://localhost/phpmyadmin/
+```
+_Une fois sur **phpMyAdmin** cliqué sur **SQL** qui se trouve dans le menu de **phpMyAdmin**. Ensuite
+utiliser la commander suivante pour créer une base de donnée:
+```
+ CREATE DATABASE  handle_library ;
+```
+_Maintenant importer la base de donnée en utilisant les commandes suivantes sur git bash ou l'invité de commande :
+   _Accédez au répertoire du projet :
+       ```bash
+       cd votre repository dans le dossier 'htdocs'
+      ```
+   _Assurez-vous que l'executable de mysql se trouve dans votre variable d'environnement
+      ``` bash
+        mysql -u root -p handle_library < path to database
+      ```
+
+
+_Accédez à l'application via votre navigateur à l'adresse suivante :
 
 ``` 
-https://localhost/systeme-de-gestion-de-bibliothque
+http://localhost/systeme-de-gestion-de-bibliotheque
 ``` 
-**2. Fonctionnalités principales**
+
+**2.Compte d'essai**
+   **email:** mariama9024@gmail.com
+   **password:** Azerty123@
+   **rôle:** Administrateur
+
+**3. Fonctionnalités principales**
 
 a. Gestion des utilisateurs
 
@@ -67,7 +96,7 @@ d. Recherche
 
 Recherche avancée : Recherchez des livres par titre, auteur, ou genre en utilisant la section recherche.
 
-**3. Technologies utilisées**
+**4. Technologies utilisées**
 
 Backend : PHP avec PDO pour interagir avec la base de données.<br>
 Base de données: MySQL.<br>
